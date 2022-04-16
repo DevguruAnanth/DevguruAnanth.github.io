@@ -137,7 +137,7 @@ a{
     font-family: 'Roboto', sans-serif;
     max-width: 50%;
     margin: auto;
-    padding-top:1.5rem;
+    padding-top: auto;
 }
 
 .firstsection{
@@ -154,11 +154,12 @@ a{
 }
 .abouttext{
     justify-content: center;
+    /* display: flex; */
     color: white;
     font-family: 'Roboto', sans-serif;
-    max-width: 70%;
+    max-width: 50%;
     margin: auto;
-    padding:10rem;
+    padding-top:1.5rem;
 }
 .section{
     height: auto;
@@ -177,6 +178,10 @@ a{
     padding: 0px 65px;
 }
 .thumbnail img{
+    width: 8rem;
+    border-radius: 5%;
+}
+.thumbnailfacility img{
     width: 14rem;
     border-radius: 5%;
 }
@@ -267,6 +272,7 @@ a{
         align-items: center;
         padding: 1rem;
         margin: 1rem;
+        
     }
     .facilitiespt-3{
         padding-top: 0rem;
